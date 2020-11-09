@@ -49,8 +49,7 @@ html {
 /* **************************************** Starting Page Styling End **************************************** */
 
 /* **************************************** Home Page Styling Start **************************************** */
-.home__page,
-.connect__page {
+.home__page {
   background-color: black;
   width: 100%;
   height: 100vh;
@@ -95,20 +94,30 @@ html {
 }
 /* **************************************** Home Page Styling End **************************************** */
 
-.connect__page .third_page .row img {
+/* **************************************** Connect Page Styling Start **************************************** */
+
+.connect__page {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Details Page Start */
+.connect__page .details__page img {
+  width: 300px;
+}
+
+/* Gallery Page Start */
+.connect__page .gallery__page .row img {
   width: 450px;
   height: 350px;
   transition: all 0.3s;
 }
-
-.connect__page .third_page .social_media-icon i {
+.connect__page .gallery__page .social_media-icon i {
   color: rgb(38, 128, 189) !important;
 }
-
-.connect__page .third_page .social_media-icon i:hover {
+.connect__page .gallery__page .social_media-icon i:hover {
   color: rgb(12, 78, 122) !important;
 }
 
-.connect__page .second_page img {
-  width: 300px;
-}
+/* **************************************** Connect Page Styling End **************************************** */
