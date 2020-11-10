@@ -121,3 +121,18 @@ html {
 }
 
 /* **************************************** Connect Page Styling End **************************************** */
+
+/* **************************************** Support Page Styling Start **************************************** */
+
+/* Navbar Styling Start */
+.support__page .navbar .form-inline input {
+  border-radius: 5px 0 0 5px;
+  padding: 0.3rem 1rem;
+}
+.support__page .navbar .form-inline i {
+  background-color: gray;
+  border: 1px solid gray;
+  margin-left: -5px;
+  color: white;
+}
+/* **************************************** Support Page Styling End **************************************** */
